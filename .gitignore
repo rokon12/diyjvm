@@ -1,0 +1,105 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.core
+
+# Generated files
+*.depend
+*.dep
+*.map
+
+# CMake build directories
+/CMakeCache.txt
+/CMakeFiles/
+/cmake-build-debug/
+/build/
+/Debug/
+/Release/
+
+# Make build directories
+/Makefile
+/GNUmakefile
+/makefile
+/moc_*
+/qrc_*
+/ui_*
+
+# Logs and other unwanted files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Editor-specific files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Clangd & compilation database
+/compile_commands.json
+/.clangd
+/.clang-format
+/.clang-tidy
+
+# GDB and debugging files
+.gdb_history
+.gdbinit
+.lldbinit
+.lldb
+
+# Coverage and profiling
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+
+# Package managers
+conanbuildinfo.txt
+conan.lock
+conanfile.lock
+conanfile.pyc
+vcpkg_installed/
+
+# System files
+.DS_Store
+Thumbs.db
+
+cmake_install.cmake
+diyjvm
+build
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db.output.txt
+Makefile
